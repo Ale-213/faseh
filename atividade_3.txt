@@ -1,0 +1,7 @@
+inicio
+var 
+salarioFx,salarioFinal,calc;
+escreva ("digite o seu salario fixo:");
+leia (salarioFx);
+calc = salrioFx*0.15;
+salarioFinal = calc + salarioFx;

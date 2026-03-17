@@ -1,0 +1,13 @@
+inicio
+var 
+inteiro = A,B
+escreva("escreva o valor de A :")
+leia (A)
+escreva ("escreva o valor de B :")
+leia (B)
+var
+A = B
+escreva ("o valor de A e :",A)
+B = A 
+escreva (" o valor de B :",B)
+fim
