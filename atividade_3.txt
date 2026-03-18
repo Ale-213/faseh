@@ -1,8 +1,14 @@
 inicio
 var 
-inteiro = salarioFx,salarioFinal,calc;
-calc = salrioFx*0.15;
-escreva ("digite o seu salario fixo:");
-leia (salarioFx);
+caracter = nome
+inteiro = salarioFx,salarioFinal,calc,venda,calc2
+venda = 1000
+calc = vendax*0.15
+calc2=calc +salarioFx
+
+escreva ("escreva seu nome :")
+leia (nome)
+escreva ("digite o seu salario fixo:")
+leia (salarioFx)
 escreva("o seu salario fixo mais a comissao de 15% e igual a :",calc)
 fim
