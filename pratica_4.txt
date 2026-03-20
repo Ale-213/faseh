@@ -1,0 +1,10 @@
+inicio
+var real
+dinherio,calc,calc2;
+calc = dinheiro*0,0070;
+calc2=calc + dinheiro;
+escreva("digite o valor a ser depositado:");
+leia(dinherio);
+escreva ("o seu deposito apos 1 mes rendeu :",calc);
+escreva("ao final do mes ao todo na conta vc tem ",calc2);
+fim

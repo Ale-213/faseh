@@ -1,0 +1,8 @@
+inicio
+var real
+reais,calc;
+calc = reais/5,31;
+escreva("escreva quantos reais voce quer converter em dollares:");
+leia (reais);
+escreva("Os seu dinheiro em dolar e de ",calc,"dolares")
+fim

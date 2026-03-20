@@ -1,0 +1,8 @@
+inicio
+var real
+celsius,calc;
+calc = (9*celsius+160)/5;
+escreva("Digite a temperatura em graus celsius:");
+leia(celsius);
+escreva("a temperatura de graus celsius em fahrenheit e de :",calc);
+fim

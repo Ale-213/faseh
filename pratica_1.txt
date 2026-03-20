@@ -1,0 +1,10 @@
+inicio
+var real
+combustivel,distancia,calc;
+calc = combustivel/distancia;
+escreva ("digite a distancia percorrida:");
+leia(distancia);
+escreva("quanto de combustivel havia no carrro?");
+leia (combustivel);
+escreva("a media de gasto de combustivel por kilometro e de ",calc);
+fim
