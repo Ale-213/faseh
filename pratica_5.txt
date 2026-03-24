@@ -1,0 +1,10 @@
+inicio
+var
+cFabrica,imposto,distribuidor,vFinal;
+imposto = cFabrica*1.45;
+distrubuidor = imposto *1.28;
+vFinal = distrubuidor;
+escreva("digite o valor de fabrica do carrro q vc vai comprar :");
+leia (cFabrica);
+escreva("o seu carro com todos os impostos inclusos vai custar no final :",vFinal);
+fim
