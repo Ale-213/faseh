@@ -1,5 +1,5 @@
 inicio
-var
+var real
 cFabrica,imposto,distribuidor,vFinal;
 imposto = cFabrica*1.45;
 distrubuidor = imposto *1.28;
