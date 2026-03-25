@@ -1,0 +1,15 @@
+inicio
+var inteiro
+idade;
+escreva("escreva sua idade");
+leia (idade);
+para i 1 ate 75 {
+se idade>=60{
+escereva ("voce e idoso");
+}senao se idade>=18{
+escreva ("maior de idade");
+}senao se idade<18{
+escreva("menor de idade");
+}
+}
+fim

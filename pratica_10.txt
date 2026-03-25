@@ -1,0 +1,26 @@
+inicio
+FUNÇÃO tabuada(N, O, T)
+
+   PARA i de 1 ATÉ T FAÇA
+
+      SE O = "S" ENTÃO
+         resultado = N + i
+         escreva N, " + ", i, " = ", resultado
+
+      SENÃO SE O = "-" ENTÃO
+         resultado = N - i
+         escreva N, " - ", i, " = ", resultado
+
+      SENÃO SE O = "*" ENTÃO
+         resultado = N * i
+         escreva N, " * ", i, " = ", resultado
+
+      SENÃO SE O = "/" ENTÃO
+         resultado = N / i
+         escreva N, " / ", i, " = ", resultado
+
+      FIMSE
+
+   FI
+
+FIMFUNÇÃO

@@ -1,0 +1,26 @@
+inicio
+var inteiro
+n1,n2,maior;
+escreva("escreva um numero inteiro :");
+leia (n1)
+escreva("escreva outro numero :");
+leia(n2)
+
+se n1>n2{
+escreva("n1 e maior q n2.");
+}se nao{
+escreva("n2 e maior q n1 .");
+}senao se n1 = n2{
+escreva("n1 e igual a n2");
+}se n1>n2{
+maior =n1;
+}se nao{
+maior = n2;
+}se maior>1 e <99{
+escreva("o numero ",maior," e maior q 1 e menor q 99");
+}senao se maior>99{
+escreva("o numero ",maior,"e maior q 99");
+}senao se maior>200{
+escreva("o numero ",maior"e maior q 200");
+}
+fim

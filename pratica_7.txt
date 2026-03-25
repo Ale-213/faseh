@@ -1,0 +1,18 @@
+inicio
+var inteiro
+n1,n2,n3,media;
+escreva("escreva a nota da primeira prova :");
+leia (n1);
+escreva ("escreva a nota da segunda prova :");
+leia (n2);
+escreva("escreva a nota da terceira prova :");
+leia(n3);
+media = n1+n2+n3/3;
+se media<5 ou =5 {
+escreva ("o aluno reprovado");
+}senao se media =7{
+escreva("aluno esta de recuperacao")
+}senao se media>7{
+escreva ("aluno aprovado");
+}
+fim

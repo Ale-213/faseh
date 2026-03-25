@@ -1,0 +1,36 @@
+inicio
+total_ate_2010 = 0
+total_geral = 0
+
+resposta = "S"
+
+ENQUANTO resposta = "S" {
+
+   escreva "Digite o valor do carro:"
+   leia valor
+
+   escreva "Digite o ano do carro:"
+   leia ano
+
+   se ano <= 2010 {
+      desconto = valor * 0.12
+      total_ate_2010 = total_ate_2010 + 1
+  senao{
+      desconto = valor * 0.07
+   }
+
+   valor_final = valor - desconto
+
+   escreva ("Desconto: ", desconto)
+   escreva ("Valor a pagar: ", valor_final)
+
+   total_geral = total_geral + 1
+
+   escreva ("Deseja continuar? (S/N)")
+   leia resposta
+
+}
+
+escreva ("Total de carros até 2010: ", total_ate_2010)
+escreva ("Total geral de carros: ", total_geral)
+fim
