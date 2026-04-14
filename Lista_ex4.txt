@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Ex4 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Valor depositado: ");
+        double valor = sc.nextDouble();
+
+        double rendimento = valor * 0.007;
+        double total = valor + rendimento;
+
+        System.out.println("Valor após 1 mês: R$ " + total);
+    }
+}

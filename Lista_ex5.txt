@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Ex5 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Custo de fábrica: ");
+        double custo = sc.nextDouble();
+
+        double impostos = custo * 0.45;
+        double comImposto = custo + impostos;
+
+        double distribuidor = comImposto * 0.28;
+        double finalCarro = comImposto + distribuidor;
+
+        System.out.println("Custo final: R$ " + finalCarro);
+    }
+}

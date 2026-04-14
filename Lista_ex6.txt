@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Ex6 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        int maior = (a > b) ? a : b;
+
+        System.out.println("Maior: " + maior);
+
+        if (maior >= 1 && maior <= 99)
+            System.out.println("Entre 1 e 99");
+        else if (maior >= 100 && maior <= 199)
+            System.out.println("Entre 100 e 199");
+        else
+            System.out.println("Maior que 200");
+    }
+}

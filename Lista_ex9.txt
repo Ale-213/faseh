@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Ex9 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int total2010 = 0;
+        int totalGeral = 0;
+
+        String continuar = "S";
+
+        while (continuar.equalsIgnoreCase("S")) {
+
+            System.out.print("Valor do carro: ");
+            double valor = sc.nextDouble();
+
+            System.out.print("Ano: ");
+            int ano = sc.nextInt();
+
+            double desconto;
+
+            if (ano <= 2010) {
+                desconto = valor * 0.12;
+                total2010++;
+            } else {
+                desconto = valor * 0.07;
+            }
+
+            double finalValor = valor - desconto;
+
+            System.out.println("Desconto: " + desconto);
+            System.out.println("Valor final: " + finalValor);
+
+            totalGeral++;
+
+            System.out.print("Continuar? (S/N): ");
+            continuar = sc.next();
+        }
+
+        System.out.println("Carros até 2010: " + total2010);
+        System.out.println("Total geral: " + totalGeral);
+    }
+}

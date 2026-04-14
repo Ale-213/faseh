@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Ex3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Cotação do dólar: ");
+        double cotacao = sc.nextDouble();
+
+        System.out.print("Quantidade em dólar: ");
+        double dolares = sc.nextDouble();
+
+        double reais = cotacao * dolares;
+
+        System.out.println("Valor em reais: R$ " + reais);
+    }
+}
